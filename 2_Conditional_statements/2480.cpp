@@ -1,3 +1,5 @@
+// 2480. 주사위 세개
+
 #include <iostream>
 #include <algorithm>
 

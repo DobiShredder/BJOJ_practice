@@ -1,3 +1,5 @@
+// 10171. Cats
+
 #include <iostream>
 
 int main()

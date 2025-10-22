@@ -1,3 +1,5 @@
+// 10172. Dogs
+
 #include <iostream>
 
 int main()

@@ -1,3 +1,5 @@
+// 2525. 오븐 시계
+
 #include <iostream>
 
 int main()
