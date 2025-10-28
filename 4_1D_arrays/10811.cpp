@@ -12,7 +12,7 @@ int main()
 	cin >> n >> m;
 	
 	vector<int> v(n);
-	for (int i=0; i++; i<n)
+	for (int i=0; i<n; i++)
 		v[i] = i+1;
 
 	int x, y = 0;
@@ -20,8 +20,14 @@ int main()
 	{
 		cin >> x >> y;
 
-		reverse(v[x], v[y]);
-
+		while ( x < y )
+		{
+			int beg = x-1;
+			int end = y-1;
+			swap(v[beg], v[end]);
+			x++;
+			y--;
+		}
 	}
 
 	for (int i=0; i<n; i++)
